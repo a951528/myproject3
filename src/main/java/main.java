@@ -15,8 +15,13 @@ public class main {
         System.out.println();
 
         //2200---->2000??
-        Customer Tina = new SilverCustomer(1,2200);
+        Customer Tina = new SilverCustomer(2,2200);
         Tina.print();
+
+        System.out.println();
+
+        Customer Helen = new GoldenCustomer(3,3600);
+        Helen.print();
 
 
 
